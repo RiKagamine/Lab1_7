@@ -1,0 +1,10 @@
+__author__ = 'Rin'
+import math
+A = float(input("A: "))
+B = float(input("B: "))
+C = float(input("D: "))
+D = float(input("C: "))
+x1 = math.sin(A) + math.sin(B)
+x2 = C + D
+X = pow(math.e, x1 / x2)
+print("X: " + str(X))
