@@ -1,0 +1,7 @@
+__author__ = 'Rin'
+import math
+AB = float(input("AB: "))
+BC = float(input("BC: "))
+AC1 = AB ** 2 + BC ** 2
+AC = math.sqrt(AC1) 
+print("AC: " + str(AC))
