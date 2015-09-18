@@ -1,0 +1,6 @@
+__author__ = 'Rin'
+from functools import reduce
+from operator import mul
+A = float(input("A: "))
+lst = [A, A, A, A, A, A, A]
+print("A^7: " + str(reduce(mul, lst)))
